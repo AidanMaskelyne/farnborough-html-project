@@ -1,0 +1,74 @@
+/* Jetbrains Mono font */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.hidden {
+	opacity: 0;
+}
+
+.visible {
+	opacity: 1;
+	transition: opacity 1s ease-out;
+}
+
+* {
+	
+	transition: 1s;
+}
+
+body {
+	background-color: #18191A;
+	color: #EFF0F1;
+	font-family: "Jetbrains Mono", monospace;
+}
+
+.pageHeading {
+	color: #EFF0F1;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.pageDescription {
+	color: #EFF0F1;
+	text-align: center;
+}
+
+.gameSection {
+	margin: 5rem 10rem;
+}
+
+.gameImage {
+	margin-bottom: 2rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	border-radius: 8px;
+
+	transition: 0.5s;
+
+	cursor: pointer;
+}
+
+.gameImage:hover {
+	transform: scale(1.15);
+}
+
+.homeButton {
+	border: 2px solid #2196F3;
+	border-radius: 5px;
+	color: dodgerblue;
+	background-color: inherit;
+	color: #EFF0F1;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.homeButton:hover {
+	background: #2196F3;
+	color: #FFFFFF;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
